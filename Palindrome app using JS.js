@@ -11,10 +11,8 @@ var s=prompt('Enter the string')
 s1=s.length
 for(i=0;i<s1/2;i++){
     if(s[i]!==s[s1-1-i]){
+        alert("not a palindrome")
         break
     }
-    else{
-        continue
-    }
-         
+    alert("palindrome")     
     }
