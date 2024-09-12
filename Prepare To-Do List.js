@@ -10,5 +10,12 @@ function addtodo(){
     ulist.appendChild(li)
     button.addEventListener('click',()=>{ulist.removeChild(li)})
     int.value=''
-
 }
+
+button.addEventListener('click',addtodo())
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        addtodo()
+    }
+})
