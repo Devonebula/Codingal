@@ -1,0 +1,14 @@
+#clock{
+    width: 500px;
+    height: 250px;
+    background-color: cyan;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    border-style: solid;
+    border-color: black;
+    font-size: 54px;
+    text-align: center;
+    /* /* padding-top: 70px;
+    padding-left: 100px; */
+}
