@@ -1,0 +1,26 @@
+#heading{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#para{
+    font-size: 30px;
+    color: dimgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#img{
+    width: 700px;
+    height: 500px;    
+}
+div{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h3{
+    font-size: 35px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    position: absolute;
+}
