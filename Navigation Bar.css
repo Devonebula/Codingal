@@ -1,0 +1,20 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li{
+    float: right;
+    color: white;
+    padding: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    hover{
+        color: gold;
+        font-size: 2%;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
