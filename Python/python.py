@@ -1,0 +1,5 @@
+print("My name is Keshav", end=". ")
+print("I am 13 years old", end=". ")
+print("My hoobie are", end=" ")
+print("playing", "cricket", sep=", " ,end=".\n")
+print("namaste", "India", sep=", " , end=".")
