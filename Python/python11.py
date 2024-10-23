@@ -1,0 +1,5 @@
+name=input("Enter your name:\t")
+birth_date=input("Enter your date of birth:\t")
+birth_month=input("Enter your month of birth:\t")
+birth_year=input("Enter your year of birth:\t")
+print(f"My name is {name} and I born on {birth_date} / {birth_month} / {birth_year}")
