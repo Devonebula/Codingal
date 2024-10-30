@@ -5,9 +5,11 @@
 body {
   font-family: "Playfair Display";
   background-color: rgba(25, 24, 24, 0.996);
-  background-image: url(Images/shipwreks.jpg);
-  background-size: cover;
+  background-image: url(Images/sea\ and\ ocean\ life-3.png);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
   .nav {
   height: 15vh;
@@ -26,8 +28,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.167);
+  background-color: #0000005e;
 }
+
 
 .nav:hover {
   background-color: white;
@@ -99,13 +102,39 @@ body {
   padding-left: 55px;
 }
 
-.bg-card{
-  background-color: rgba(100, 113, 227, 0.314);
-  width: 25vw;
+.bg-card {
+  background-color: transparent;
+  width: 36vw;
   height: 60vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   position: absolute;
   top: 20%;
-  left: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg-card span {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-card :nth-child(1){
+  font-size: 50px;
+  font-weight: 900;
+}
+.bg-card :nth-child(2){
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.bg-card :nth-child(3){
+  font-size: 25px;
+  font-weight: 400;
+
 }
