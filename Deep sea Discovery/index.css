@@ -10,6 +10,7 @@ body {
   font-family: 'Baloo Bhai 2', cursive;
   background-color: black;
 }
+
 .background-container {
   height: 90vh;
   background-image: url(Images/sea\ and\ ocean\ life-3.png);
@@ -159,62 +160,6 @@ body {
   box-shadow: #ffffff 0px 3px 5px;
   /* margin-bottom: 30px; */
 }
-/* 
-
-
-h1{
-  color: white;
-}
-.card{
-  margin: 0 25px 0 auto;
-  padding: 2em;
-  width: 300px;
-  background: #2c292dff;
-  text-align: center;
-  border-radius: 10px;
-  position: relative;
-  margin-top: 10vh;
-  height: 55vh;
-  margin-bottom: 55px;
-  color: whitesmoke;
-}
-
-.card h1{
-  margin-bottom: 40px;
-  font-size:35px;
-}
-@property --angle{
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-}
-
-.card::after, .card::before{
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 3px;
-  border-radius: 10px;
-  animation: 3s spin linear infinite;
-}
-.card::before{
-  filter: blur(1.5rem);
-  opacity: 0.5;
-}
-@keyframes spin{
-  from{
-    --angle: 0deg;
-  }
-  to{
-    --angle: 360deg;
-  }
-} */
 
 /* Portfolio Section Styles */
 .portfolio {
@@ -251,6 +196,21 @@ h1{
   margin-bottom: 15px;
 }
 
+/* .portfolio .ocean-content button {
+  background-color: #0288d1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio .ocean-content button:hover {
+  background-color: #026aa7;
+} */
 
 .portfolio .ocean-image img {
   width: 100%;
@@ -318,6 +278,22 @@ h1{
   font-size: 1.2em;
   margin-bottom: 15px;
 }
+
+/* .ocean .ocean-content button {
+  background-color: #0288d1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.ocean .ocean-content button:hover {
+  background-color: #026aa7;
+} */
 
 .ocean-image img {
   width: 100%;
