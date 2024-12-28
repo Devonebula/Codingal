@@ -1,3 +1,6 @@
+/* universal tags */
+
+
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +13,11 @@ body {
   font-family: 'Baloo Bhai 2', cursive;
   background-color: black;
 }
+
+
+
+/* top nav and background css */
+
 
 .background-container {
   height: 90vh;
@@ -151,6 +159,11 @@ body {
   font-size: 25px;
   font-weight: 400;
 }
+
+
+/* seperator css */
+
+
 .separator {
   width: 100%;
   height: 1px;
@@ -158,16 +171,20 @@ body {
   position: absolute;
   z-index: 20;
   box-shadow: #ffffff 0px 3px 5px;
-  /* margin-bottom: 30px; */
 }
 
+
+
 /* Portfolio Section Styles */
+
+
+
 .portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-color: #e0f7fad8; /* Same as ocean */
+  background-color: #e0f7fad8; 
   position: relative;
 }
 
@@ -196,22 +213,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* .portfolio .ocean-content button {
-  background-color: #0288d1;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio .ocean-content button:hover {
-  background-color: #026aa7;
-} */
-
 .portfolio .ocean-image img {
   width: 100%;
   max-width: 500px;
@@ -234,6 +235,7 @@ body {
 
 
 /* Ocean Section Styles */
+
 
 .ocean {
   display: flex;
@@ -278,23 +280,6 @@ body {
   font-size: 1.2em;
   margin-bottom: 15px;
 }
-
-/* .ocean .ocean-content button {
-  background-color: #0288d1;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-}
-
-.ocean .ocean-content button:hover {
-  background-color: #026aa7;
-} */
-
 .ocean-image img {
   width: 100%;
   max-width: 500px;
@@ -315,7 +300,7 @@ body {
 
 
 
-
+/* .shipwrecks style css */
 
 
 .shipwrecks{
@@ -323,7 +308,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-color: #e0f7fad8; /* Same as ocean */
+  background-color: #e0f7fad8; 
   position: relative;
 }
 
@@ -377,8 +362,10 @@ body {
 
 
 /* Contact Section Styles */
+
+
 .contact {
-  background-color: #f9f9f9; /* Light background for contrast */
+  background-color: #f9f9f9; 
   padding: 60px 20px;
   font-family: 'Roboto Mono', monospace;
 }
@@ -464,15 +451,15 @@ body {
   font-size: 1em;
   font-family: 'Roboto Mono', monospace;
   margin-top: 10px;
-  color: #28a745; /* Green color */
-  display: none; /* Hidden by default */
+  color: green; 
+  display: none;
 }
 
-
-
 /* Footer Styles */
+
+
 .footer {
-  background-color: #1b1b1b; /* Dark theme */
+  background-color: #1b1b1b; 
   color: #f5f5f5;
   text-align: center;
   padding: 20px 0;

@@ -26,3 +26,5 @@
         console.error('Error:', error);
       });
   });
+
+// document.getElementById("successMessage").style.display = "block";

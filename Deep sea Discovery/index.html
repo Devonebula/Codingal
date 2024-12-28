@@ -6,22 +6,21 @@
     <title>Deep Sea Discovery</title>
 
     <!-- Main stylsheet linking -->
+
     <link rel="stylesheet" href="index.css" />
 
-    <!-- Font linking -->
+    <!-- Font linking and icon linking -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap"
-      rel="stylesheet"
-    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap"rel="stylesheet"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- icons linking -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"rel="stylesheet"/>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home"
@@ -44,6 +43,7 @@
     <div class="background-container">
       <div class="cover">
         <nav class="nav">
+
           <!-- left side of nav -->
 
           <div class="left">
@@ -83,6 +83,7 @@
           </div>
         </nav>
 
+          <!-- content on background image -->
         <div class="bg-card">
           <span>Deep Sea Discovery</span>
           <span>Explore the glimpse of</span>
@@ -118,7 +119,6 @@
             creativity, aimed at inspiring curiosity about the uncharted depths
             of our planet.
           </p>
-          <!-- <button>Explore more</button> -->
         </div>
         <div class="ocean-image">
           <img src="Images/CHARACTEr.png" alt="Portfolio Background" />
@@ -147,7 +147,6 @@
             posed by mining and climate change. Preserving this fragile frontier
             is essential for future generations.
           </p>
-          <!-- <button>Explore more</button> -->
         </div>
         <div class="ocean-image">
           <img src="Images/ocean-bg.jpg" alt="Ocean Background" />
@@ -176,7 +175,6 @@
             Join us on June 8th to celebrate the World Ocean Day and take action
             to save our planet.
           </p>
-          <!-- <button>Learn More</button> -->
         </div>
         <div class="ocean-image">
           <img
@@ -193,16 +191,9 @@
       <div class="contact-container">
         <div class="contact-form">
           <h2>Feedback Us</h2>
-          <form
-            id="contactForm"
-            action="https://script.google.com/macros/s/AKfycbzlw2MBr5aCh7OWLQx3vsC-2pMAUE0qw7Io0EwYtjQAEwccrPEULZG60V9Fm0oDzFgDQw/exec"
-            method="POST"
-          >
+          <form id="contactForm" action="https://script.google.com/macros/s/AKfycbzlw2MBr5aCh7OWLQx3vsC-2pMAUE0qw7Io0EwYtjQAEwccrPEULZG60V9Fm0oDzFgDQw/exec" method="POST">
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
+            <input type="text" id="name" name="name"
               placeholder="Your Name"
               required
             />
@@ -224,11 +215,8 @@
               required
             />
 
-            <button type="submit" id="submit_btn">Send</button>
-            <p
-              id="successMessage"
-              style="display: none; color: green; margin-top: 10px"
-            >
+            <button type="submit" id="submit_btn" onclick="showSuccessMessage()">Send</button>
+            <p id="successMessage">
               Thank you! We'll get back to you soon.
             </p>
           </form>
