@@ -126,7 +126,7 @@ body {
 
 .bg-card {
   background-color: transparent;
-  width: 36vw;
+  width: 45vw;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -146,14 +146,14 @@ body {
 }
 
 .bg-card :nth-child(1) {
-  font-size: 48px;
+  font-size: 60px;
   font-weight: 900;
-  margin-bottom: 23px;
+  margin-bottom: 10px;
 }
 .bg-card :nth-child(2) {
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .bg-card :nth-child(3) {
   font-size: 25px;
