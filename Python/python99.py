@@ -14,8 +14,6 @@ def print_board(board):
     print(board['4'] + '|' + board['5'] + '|' + board['6'])
     print('-+-+-')
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
-    
-print_board(board)
 
 def game():
     turn="X"
@@ -87,9 +85,9 @@ def game():
         else:
             turn="X"
         
-        restart = input("Do you want to play Again?(y/n):\t")
-        if restart=="y" or restart=="Y":
-            for key in board_keys:
-                board[key]=" "
-            game()
+    restart = input("Do you want to play Again?(y/n):\t")
+    if restart=="y" or restart=="Y":
+        for key in board_keys:
+            board[key]=" "
+        game()
 game()
