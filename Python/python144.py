@@ -20,5 +20,4 @@ while not done:
             done = True
     pygame.draw.rect(screen, red, pygame.Rect(x, y, rect_width, rect_height))
     pygame.draw.circle(screen, (255,255,255), (200,200), 90, 3)
-    pygame.
     pygame.display.flip()
