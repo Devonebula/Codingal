@@ -27,11 +27,10 @@ class sprite(pygame.sprite.Sprite):
         self.rect.y= (screen_height- height)// 2
         pygame.draw.rect(screen, color, pygame.Rect(self.rect.x, self.rect.y, width, height))
     def color_change(self):
-        self.image.fill(random.choice([red, green, blue, yellow, white, black]))
+        self.image.fill(random.choice([red, green, blue, yellow, white]))
         
 sp1=sprite((255, 0 ,0) , 100, 100)
 allsprite=pygame.sprite.Group()
-
 allsprite.add(sp1)
 
 clock=pygame.time.Clock()
