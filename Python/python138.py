@@ -1,6 +1,19 @@
-class roman_numeral:
-    def __init__(self, number):
-        self.number = number
-        self.dic={'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000, 'IV':4, 'IX':9, 'XL':40, 'XC':90, 'CD':400, 'CM':900}
+class integer_to_roman:
+    def __init__(self):
+        self.roman.map=[(4000, 'IṼ'), (1000,'M'), (900, 'CM'), (500, 'D'), (400, 'CD'), (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'), (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')]
     
-    def convert_to_roman_number(self):
+    def convert(self, num):
+        roman_numeral = ''
+        for value, symbol in self.roman.map:
+            count=0
+            while num >= value:
+                count+=1
+            if count>3:
+                roman_numeral += '_'
+                count=0
+            roman_numeral += symbol
+            num=value
+        return roman_numeral
+
+a=integer_to_roman()
+print(a.convert(1234))
