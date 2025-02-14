@@ -23,15 +23,39 @@ rate_entry=Entry(rate_frame)
 
 textbox=Text(bg='#BEBEBE', fg='black')
 
-btn=Button(text='Calculate', command=calculate)
 
 def calculate():
     textbox.delete(1.0, END)
-    principal=principal_entry.get()
-    time=time_entry.get()
-    rate=rate_entry.get()
+    principal=int(principal_entry.get())
+    time=int(time_entry.get())
+    rate=int(rate_entry.get())
 
     simple_intrest=principal*(1+(rate*time))
-    compund_intrest=
+    compund_intrest=principal*(1+(rate/100))**time
     
+    textbox.insert(END, f'Simple Intrest: {simple_intrest}₨\nCompound Intrest: {compund_intrest}₨')
+    principal_entry.delete(0, END)
+    time_entry.delete(0, END)
+    rate_entry.delete(0, END)
+    
+    
+btn=Button(text='Calculate', command=calculate)
+
+principal_frame.grid(row=1, column=0, pady=5)
+principal.pack(side=LEFT, padx=5)
+principal_entry.pack(side=LEFT, padx=5)
+
+time_frame.grid(row=2, column=0, pady=5)
+time.pack(side=LEFT, padx=5)
+time_entry.pack(side=LEFT, padx=5)
+
+rate_frame.grid(row=3, column=0, pady=5)
+rate.pack(side=LEFT, padx=5)
+rate_entry.pack(side=LEFT, padx=5)
+
+btn.grid(row=4, column=0)
+
+textbox.grid(row=5)
+
+
 t.mainloop()
