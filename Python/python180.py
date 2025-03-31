@@ -12,11 +12,12 @@ for x in students_marks:
 print(marks_perc)
 
 def marks_line_chart():
-    plt.plot(students_name, students_marks)
-    plt.title('Marks of Students')
-    plt.xlabel('Name')
-    plt.ylabel('Marks')
+    plt.plot(students_name, students_marks, marker='o', linestyle='-', c="b", linewidth=2, markersize=8)
+    plt.title('Marks of Students', fontsize=16, fontweight='bold')
+    plt.xlabel('Name', fontsize=12)
+    plt.ylabel('Marks', fontsize=12)
     plt.xticks(rotation=45)
+    plt.grid(True, linestyle='--', alpha=0.5) 
     plt.show()
 
 marks_line_chart()
